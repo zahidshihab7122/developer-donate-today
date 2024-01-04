@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.Container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* header and background image style */
+.header {
+    background-image: linear-gradient(rgba(18, 18, 18, 0),
+            rgba(18, 18, 18, 1)), url("../images/donate10.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 670px;
+}
+
+.banner {
+    width: 100%;
+    text-align: center;
+}
+
+.banner-title {
+    color: #fff;
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding: 174px 307px 0;
+}
+
+.banner-description {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px 375px 0;
+}
+
+.btn {
+    padding: 30px 640px 175px;
+}
+
+.btn-primary {
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 16px 12px;
+    border-radius: 5px;
+    background: #FF5959;
+    border: none;
+    outline: none;
+}
+
+.main-section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Donate-Amount {
+    text-align: center;
+}
+
+.Donate-title {
+    color: #121212;
+    font-size: 45px;
+    font-weight: 700;
+    padding: 100px 195px 20px;
+}
+
+
+.Donate-description {
+    color: #707070;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 220px 50px;
+}
+
+.Amount {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+    column-gap: 22px;
+}
+
+.Amount-one {
+    color: #707070;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 5px;
+    background: #FAFAFA;
+    padding: 45px 25px;
+    cursor: pointer;
+}
+
+.Amount-tow {
+    color: #FF5959;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 2px solid #FF5959;
+    background: #FEE;
+    padding: 45px 25px;
+    cursor: pointer;
+}
+
+.Amount-three {
+    color: #707070;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 5px;
+    background: #FAFAFA;
+    padding: 45px 25px;
+    cursor: pointer;
+}
+
+.Amount-four {
+    color: #707070;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 5px;
+    background: #FAFAFA;
+    padding: 45px 25px;
+    cursor: pointer;
+}
+
+.Ot-Amount {
+    color: #B3B3B3;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 290px 10px;
+}
+
+.Ot-Amount>input {
+    border: none;
+    outline: none;
+}
+
+.Ot-Amount>input::placeholder {
+    text-align: center;
+}
+
+hr {
+    color: #DADADA;
+    margin-bottom: 30px;
+}
+
+.Plan {
+    text-align: center;
+    padding: 130px 0;
+}
+
+.Plan-title {
+    color: #121212;
+    font-size: 45px;
+    font-weight: 700;
+    padding: 0 165px;
+}
+
+.Plan-description {
+    color: #707070;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    padding: 0 220px 50px;
+}
+
+.Plan-list {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    column-gap: 24px;
+}
+
+.food {
+    border-radius: 5px;
+    background: rgba(79, 157, 166, 0.10);
+    padding: 63px 22px 54px 23px;
+}
+
+.Food-title {
+    color: #121212;
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.Food-description {
+    color: #707070;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.Shelter {
+    border-radius: 5px;
+    background: rgba(255, 89, 89, 0.10);
+    padding: 63px 22px 54px 23px;
+}
+
+.Shelter-title {
+    color: #121212;
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.Shelter-description {
+    color: #707070;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.Education {
+    border-radius: 5px;
+    background: #FFF4D6;
+    padding: 63px 22px 54px 23px;
+}
+
+.Education-title {
+    color: #121212;
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.Education-description {
+    color: #707070;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.Donation-photo {
+    width: 50%;
+}
+
+.Depend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.Depend-title {
+    color: #121212;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.Depend-description-one {
+    color: #707070;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.Depend-description-tow {
+    color: #707070;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.Donation-photo {
+    width: 50%;
+}
+
+.Survive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    padding: 130px 0;
+}
+
+.Survive-title {
+    color: #121212;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.Survive-description-one {
+    color: #707070;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.Survive-description-tow {
+    color: #707070;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.Update {
+    text-align: center;
+    padding: 0 0 100px;
+}
+
+.Update-title {
+    color: #121212;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.Update-description {
+    color: #707070;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    padding: 0 220px 50px;
+}
+
+.Address {
+    background: #FFF4D6;
+}
+
+.Mail {
+    padding: 76px 188px 76px 189px;
+}
+
+.Mail>input {
+    border: none;
+    outline: none;
+}
+
+.Email {
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 14px 218px 14px 17px;
+}
+
+.btn-mail {
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 14px 43px 14px 42px;
+    border-radius: 0px 5px 5px 0px;
+    background: #FF5959;
+    border: none;
+    outline: none;
+}
+
+.Humble {
+    background-color: #121212;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    height: 177px;
+    padding: 43px 629px 42px 653px;
+    justify-content: flex-end;
+}
+
+.Humble-title {
+    color: #FF5959;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.Humble-description {
+    color: #D9DBE1;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 32px 0 32px;
+}
